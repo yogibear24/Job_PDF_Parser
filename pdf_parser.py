@@ -7,7 +7,7 @@ import re
 import glob
 import numpy as np
 import pandas as pd
-# Purely Python! Woo!
+# Using as much Python as possible, no Java or C++ required like Tabula, Tika, etc.
 
 def extract_string_from_pdf(pdf_path):
     resource_manager = PDFResourceManager() # Function to store shared resources such as fonts and images
